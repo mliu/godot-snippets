@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr1bordnu4gay"]
+
+[ext_resource type="Script" uid="uid://daykhklat75ep" path="res://dialogue_manager/dialogue_manager.gd" id="1_xn3j6"]
+
+[node name="DialogueManager" type="Node2D"]
+script = ExtResource("1_xn3j6")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 117.0
+offset_bottom = 40.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+layout_mode = 0
+offset_right = 117.0
+offset_bottom = 40.0
+text = "sample text 12345"
+
+[node name="ContinueLabel" type="RichTextLabel" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ChoiceLabel" type="RichTextLabel" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
